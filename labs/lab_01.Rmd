@@ -1,18 +1,20 @@
 ---
-Título: "Laboratório 1"
-Nome: "Pedro Fernandes de Oliveira"
-Matrícula: "231006177"
-Data: "11/04/2025"
+Título: Laboratório 1
+Nome: Pedro Fernandes de Oliveira
+Matrícula: '231006177'
+Data: 11/04/2025
 ---
 
 # Parte 1
 
-## Exercício 01 
+## Exercício 01
+
 ### Escreva uma equação matemática via LaTeX.
 
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 ## Exercício 02
+
 ### Defina um vetor x contendo uma sequência de 101 números. Em seguida, defina outro vetor y como função de x a partir da equação que você escolheu para o Exercício 1.
 
 ```{r}
@@ -31,6 +33,7 @@ print(vetorY)
 ```
 
 ## Exercício 03
+
 ### Faça um gráfico da função definida no Exercício 1 a partir dos vetores definidos no Exercício 2 sem mostrar o código (ou seja, revelando apenas a saída do comando).
 
 ```{r, echo=FALSE}
@@ -41,6 +44,12 @@ grid()
 # Parte 2
 
 ## Exercício 4
+
 ### Adicione um link para a página Wikipedia de alguma personalidade que você admira.
 
 [Página da Wikipédia para o perfil de Caio Fernando Abreu](https://pt.wikipedia.org/wiki/Caio_Fernando_Abreu)
+
+## Exercício 5
+### Escreva um breve texto explicando porque você admira a personalidade do Exercício 4 contendo uma palavra em itálico e uma palavra em negrito.
+
+Admiro a personalidade do autor Caio por que ele escrevia de forma pura, intensa, bagunçada, cheia de amor, medo e saudade. Admiro principalmente seu texto "A Morte dos Girassóis". Admiro sua luta contra a AIDS em um momento (anos 90) em que os soropositivos eram tratados de maneira preconceituosa e colocados a margem da sociedade.
