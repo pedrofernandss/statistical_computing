@@ -7,9 +7,25 @@ Data: "11/04/2025"
 
 # Parte 1
 
-## Exercício 01
+## Exercício 01 
+### Escreva uma equação matemática via LaTeX.
 
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 ## Exercício 02
+### Defina um vetor x contendo uma sequência de 101 números. Em seguida, defina outro vetor y como função de x a partir da equação que você escolheu para o Exercício 1.
 
+```{r}
+# Definição do vetor X
+vetorX <- 1:101
+
+# Definição dos coeficientes
+a <- 1
+b <- -3
+c <- 2
+
+# Calculo de vetor Y de acordo com o vetor X
+vetorY <- a*vetorX^2 + b*vetorX + c
+
+print(vetorY)
+```
