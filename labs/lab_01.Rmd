@@ -37,3 +37,10 @@ print(vetorY)
 plot(vetorX, vetorY, type="l", col="blue", lwd=2, main="Gráfico da Função Quadrática", xlab="x", ylab="y")
 grid()
 ```
+
+# Parte 2
+
+## Exercício 4
+### Adicione um link para a página Wikipedia de alguma personalidade que você admira.
+
+[Página da Wikipédia para o perfil de Caio Fernando Abreu](https://pt.wikipedia.org/wiki/Caio_Fernando_Abreu)
