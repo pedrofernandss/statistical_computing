@@ -53,3 +53,9 @@ grid()
 ### Escreva um breve texto explicando porque você admira a personalidade do Exercício 4 contendo uma palavra em itálico e uma palavra em negrito.
 
 Admiro a personalidade do autor Caio por que ele escrevia de forma pura, intensa, bagunçada, cheia de amor, medo e saudade. Admiro principalmente seu texto "A Morte dos Girassóis". Admiro sua luta contra a AIDS em um momento (anos 90) em que os soropositivos eram tratados de maneira preconceituosa e colocados a margem da sociedade.
+
+## Exercício 6
+### Adicione uma imagem da personalidade escolhida no Exercício 4.
+
+![Caio Fernando Abreu](images.jpeg)
+
