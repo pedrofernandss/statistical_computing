@@ -1,0 +1,6 @@
+{
+  "Título": "Laboratório 1"
+  "Nome": "Pedro Fernandes de Oliveira"
+  "Matrícula" : "231006177"
+  "Data": 11/04/2025
+}
