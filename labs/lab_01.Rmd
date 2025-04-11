@@ -1,8 +1,10 @@
 ---
-Título: Laboratório 1
-Nome: Pedro Fernandes de Oliveira
-Matrícula: '231006177'
-Data: 11/04/2025
+title: "Laboratório 01"
+author: "Pedro Fernandes de Oliveira - Matrícula: 231006177"
+date: "11 de abril, 2025"
+output: html_document
+---
+
 ---
 
 # Parte 1
@@ -41,6 +43,8 @@ plot(vetorX, vetorY, type="l", col="blue", lwd=2, main="Gráfico da Função Qua
 grid()
 ```
 
+---
+
 # Parte 2
 
 ## Exercício 4
@@ -57,10 +61,65 @@ Admiro a personalidade do autor Caio por que ele escrevia de forma pura, intensa
 ## Exercício 6
 ### Adicione uma imagem da personalidade escolhida no Exercício 4.
 
-![Caio Fernando Abreu](images.jpeg)
+![](images.jpeg)
 
 ## Exercício 7
 ### Adicione a mesma imagem do Exercício 6, mas com tamanho diferente.
 
 <img src="images.jpeg" width="20%">
 
+---
+
+# Parte 3
+
+## Exercício 8
+### Apresente apenas o comando (sem mostrar a saída do código) de como visualizar as primeiras 6 linhas do banco de dados iris.
+```{r, echo=TRUE, results='hide'}
+head(iris)
+```
+
+## Exercício 9
+### Defina e apresente uma matriz A com 5 linhas e 5 colunas.
+```{r}
+mat <- matrix(c(2, 1, 1, 3, 2, 1, 1, 1, 2, 1, 1, 3, 2, 1, 1, 1, 2, 1, 1, 3, 2, 1, 1, 1, 2), nrow=5, byrow=TRUE)
+mat
+```
+
+## Exercício 10
+### Calcule a inversa da matriz A.
+```{r}
+solve(mat)
+```
+
+## Exercício 11
+### Calcule a transposta da matriz A.
+```{r}
+t(mat)
+```
+
+## Exercício 12
+### Defina e apresente uma lista contendo, pelos menos, 5 músicas que você deseja escutar na primeira entrada; um número associado a cada música na segunda entrada; a ordem de execução das músicas na terceira entrada; e um vetor lógico indicando se essa música faz parte do seu rol das “melhores de todos os tempos” na quarta entrada.
+```{r}
+playlist <- list(
+  musicas = c("La Vie En Rose", "Blackbird", "In The End", "What's Up?", "Palavras Ao Vento"),
+  numeros = c(1, 2, 3, 4, 5),
+  ordem_execucao = c(3, 2, 1, 4, 5),  
+  melhores_de_todos_os_tempos = c(TRUE, TRUE, FALSE, TRUE, FALSE)
+)
+
+playlist
+```
+
+## Exercício 13
+### Defina e apresente um conjunto de dados contendo integrantes de uma de suas bandas favoritas na primeira coluna, o instrumento que cada integrante da banda utiliza na segunda coluna, se o integrante está vivo ou morto na terceira coluna e a idade máxima de cada integrante na quarta coluna. 
+
+```{r}
+banda <- data.frame(
+  integrantes = c("Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"),
+  instrumento = c("Vocal", "Guitarra", "Bateria", "Baixo"),
+  vivo = c(FALSE, TRUE, TRUE, TRUE),
+  idade_maxima = c(45, 76, 74, 72) 
+)
+
+banda
+```
