@@ -29,3 +29,11 @@ vetorY <- a*vetorX^2 + b*vetorX + c
 
 print(vetorY)
 ```
+
+## Exercício 03
+### Faça um gráfico da função definida no Exercício 1 a partir dos vetores definidos no Exercício 2 sem mostrar o código (ou seja, revelando apenas a saída do comando).
+
+```{r, echo=FALSE}
+plot(vetorX, vetorY, type="l", col="blue", lwd=2, main="Gráfico da Função Quadrática", xlab="x", ylab="y")
+grid()
+```
